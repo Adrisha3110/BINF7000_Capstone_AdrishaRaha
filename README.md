@@ -1,29 +1,36 @@
-# Exploratory Bioinformatics Capstone Project
+# BINF7000 Capstone Project – Adrisha Raha
 
 ## Overview
-This repository serves as the main documentation hub for my capstone project in BINF 7000. It will be used to organize code, analyses, notes, and results developed throughout the course, with a focus on reproducible and well-documented bioinformatics workflows.
+This repository contains scripts, notes, and analysis files for my BINF 7000 Bioinformatics Capstone project. The project focuses on building a comparative genomics workflow for extracting coding sequences (CDS) from multi-species alignment datasets and preparing them for downstream evolutionary analysis.
 
-## Purpose
-The goal of this project is to apply bioinformatics methods and computational tools to analyze biological data, explore meaningful patterns, and communicate results clearly using version control and structured documentation.
+## Project Goal
+The overall objective is to generate high-quality structured sequence datasets for comparative analysis across mammalian genomes. My current work focuses on building and validating the human-reference workflow using the 120-mammal dataset. The next phase will involve rodent sub-species alignment using mouse as the reference genome and comparison of FRESCo outputs against the 120-mammalian human-reference analysis.
 
-## Technical Skills Inventory
-The following tools and skills are currently being used or developed in this project:
-- Python (data processing, scripting, basic statistics)
-- HPC Environment
-- Git & GitHub (version control, documentation)
-- Command-line tools (macOS terminal)
-- FASTA file processing
-- Basic bioinformatics workflows
-- Markdown for documentation
+## Repository Structure
 
-## Learning Goals
-Through this capstone project, I aim to:
-- Strengthen my Python programming skills for bioinformatics
-- Develop reproducible and well-documented analysis pipelines
-- Gain confidence using GitHub for scientific collaboration
-- Improve my ability to communicate bioinformatics results clearly
-- Apply computational methods to real biological datasets
+### Scripts/python
+Python scripts used for:
+- CDS extraction support
+- FASTA chunking and padding
+- Gene-level sequence processing
+- File preparation and workflow automation
 
-## Notes
-This README will be updated throughout the term as the project evolves and becomes more clearly defined.
+### Scripts/shell
+Shell scripts used for:
+- Job submission on HPC
+- Pipeline execution
+- Batch processing steps
 
+### Analysis
+Contains project notes, summaries, and progress documentation.
+
+## Current Progress
+- Organized capstone project directory structure
+- Prepared annotation and CCDS-related files
+- Configured chromosome-specific extraction workflow
+- Prepared species list and phylogenetic tree inputs
+- Began FASTA chunking, padding, and gene-level extraction workflow
+- Started preparing scripts for downstream FRESCo analysis
+
+## Author
+Adrisha Raha
